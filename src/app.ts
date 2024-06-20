@@ -1,9 +1,11 @@
 import express, { Request, Response } from 'express';
 import bodyParser from 'body-parser';
 import * as fs from 'fs';
+const dotenv = require('dotenv');
+dotenv.config();
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
@@ -140,5 +142,5 @@ app.get('/search', (req: Request, res: Response) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
