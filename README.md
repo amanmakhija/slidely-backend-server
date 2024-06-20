@@ -2,7 +2,7 @@
 
 ## The server is live on the following link using Render
 
-```https://slidely-backend-server.onrender.com```
+[slidely-backend-server.onrender.com](https://slidely-backend-server.onrender.com)
 
 ## How to run it
 
