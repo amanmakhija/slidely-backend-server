@@ -3,7 +3,7 @@
 ## The server is live on the following link using Render
 
 [slidely-backend-server.onrender.com](https://slidely-backend-server.onrender.com)
-Note - The server is hosted on free version of Render which is very slow (sometimes takes 50 sec to send response)
+### Note - The server is hosted on the free version of Render which is very slow (sometimes takes 50 sec to send a response)
 
 ## How to run it
 
